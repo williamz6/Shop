@@ -15,6 +15,11 @@
 	border-top: 5px solid #2d4180;
 	border-top-left-radius: 20%;
 }
+@media(max-width:991px){
+	.navbar-light .navbar-nav .nav-link:hover {
+		border: none;
+	}
+}
 
 
 .logo {
@@ -94,7 +99,12 @@ background-size: cover;
     font-weight: 500; }
     @media (max-width: 991px) {
       .menu-left a {
-        margin-right: 7px; } }
+        margin-right: 7px; } 
+      
+      }
+
+      
+      
     .menu-left a:hover, .menu-left a.active {
       color: #ad9966; }
     .menu-left a:last-child {
